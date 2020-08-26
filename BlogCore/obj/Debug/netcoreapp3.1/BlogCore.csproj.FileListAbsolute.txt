@@ -1,0 +1,15 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\bin\Debug\netcoreapp3.1\BlogEntities.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.csprojAssemblyReference.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.AssemblyInfoInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.AssemblyInfo.cs
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.deps.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\bin\Debug\netcoreapp3.1\BlogEntities.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.csproj.CopyComplete
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.runtimeconfig.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\bin\Debug\netcoreapp3.1\BlogCore.runtimeconfig.dev.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.genruntimeconfig.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.csproj.CoreCompileInputs.cache

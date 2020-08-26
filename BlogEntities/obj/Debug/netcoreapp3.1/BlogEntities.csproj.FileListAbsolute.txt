@@ -1,0 +1,12 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.deps.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.csprojAssemblyReference.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.AssemblyInfoInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.AssemblyInfo.cs
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.runtimeconfig.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.runtimeconfig.dev.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.genruntimeconfig.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.csproj.CoreCompileInputs.cache

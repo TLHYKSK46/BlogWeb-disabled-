@@ -1,0 +1,24 @@
+
+using BlogEntities.BlogDb;
+using FluentValidation;
+
+namespace BlogBusinnes.FluentRules.FluentValidation
+{
+    public class MakaleValidatior : AbstractValidator<Makale>
+    {
+        public MakaleValidatior()
+        {
+
+           /* RuleFor(p => p.CategoryID).NotEmpty().WithMessage("Kategori Boş Geçemez");//bu şekilde kendi mesajlarımızı verebiliyoruz..
+            RuleFor(p => p.ProductName).NotEmpty();//boş olamaz
+            RuleFor(p => p.UnitPrice).GreaterThan(0);//sıfırdan büyük olmalı
+            RuleFor(p => p.QuantityPerUnit).NotEmpty();//boş olamaz
+            RuleFor(p => p.ProductName).Length(2, 20);//min :2 max:20 olabilir
+            RuleFor(p => p.UnitPrice).GreaterThan(20).When(p => p.CategoryID == 1);//kategori ıd 1 ise minumum degeri 20 olsun
+            /*RuleFor(p => p.ProductName).Must(Kural);//Kendi Kurallarımızıda oluşturur
+            */
+        }
+
+
+    }
+}

@@ -1,0 +1,17 @@
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogCore.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogEntities.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.csprojAssemblyReference.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.AssemblyInfoInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.AssemblyInfo.cs
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogEntities.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogDataAccess.deps.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogDataAccess.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogCore.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.csproj.CopyComplete
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogDataAccess.runtimeconfig.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogDataAccess.runtimeconfig.dev.json
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.genruntimeconfig.cache
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\bin\Debug\netcoreapp3.1\BlogDataAccess.pdb
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.dll
+C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogDataAccess\obj\Debug\netcoreapp3.1\BlogDataAccess.pdb
