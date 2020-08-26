@@ -10,7 +10,7 @@ namespace BlogCores.CrossCuttingConcerns.Validation.FluentValidation
             var result = validator.Validate((IValidationContext)entity);
             if (result.Errors.Count > 0)
             {
-                throw new ValidationException(result.Errors);
+                throw new ValidationException(result.Errors); 
             }
         }
         

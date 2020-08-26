@@ -40,6 +40,8 @@ namespace BlogWebUI.Controllers
         public IActionResult Index(int sayfaNo=1,int kategoriId=0,String arananMetin=null)
         {
             int sayfaBoyut = 10;
+            int test;
+            int test2;
             var makaleler = _makaleServis.MakaleleriGetir();
             
             var kategoriler = _kategoriServis.KategorileriGetir();
