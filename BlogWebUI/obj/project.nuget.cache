@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k45vBr6C8KuNE1+weUy/1hpiEWUr1BXo2S5v9HfZXeMltdVyPwQaJfcLFdHYb9YuSebjGjsTnT1xSF6EnEuIrg==",
+  "dgSpecHash": "3u2//iY/9p5vvZi+jVdbEpxKXHBPS7wkxbiTodI2uWp4PvcGI61IBxxMgCnAmR2rl3jF90PRNT+l2Y2zvSggMA==",
   "success": true,
-  "projectFilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\BlogWebUI.csproj",
+  "projectFilePath": "D:\\GitHub\\BlogWeb\\BlogWebUI\\BlogWebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kardelen\\.nuget\\packages\\fluentvalidation\\9.1.3\\fluentvalidation.9.1.3.nupkg.sha512",
     "C:\\Users\\Kardelen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -117,7 +117,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "'PostSharp 4.2.17' paketi, proje hedef çerçevesi '.NETCoreApp,Version=v3.1' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "message": "Package 'PostSharp 4.2.17' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "PostSharp",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
