@@ -5706,11 +5706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj",
+      "projectUniqueName": "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
       "projectName": "BlogEntities",
-      "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj",
+      "projectPath": "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
       "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\obj\\",
+      "outputPath": "D:\\GitHub\\BlogWeb\\BlogEntities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

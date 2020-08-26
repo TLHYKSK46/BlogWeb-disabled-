@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogDataAccess\\BlogDataAccess.csproj": {}
+    "d:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogCore\\BlogCore.csproj": {
+    "d:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogCore\\BlogCore.csproj",
+        "projectUniqueName": "d:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj",
         "projectName": "BlogCore",
-        "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogCore\\BlogCore.csproj",
+        "projectPath": "d:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj",
         "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogCore\\obj\\",
+        "outputPath": "d:\\GitHub\\BlogWeb\\BlogCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj"
+              "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {
+                "projectPath": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogDataAccess\\BlogDataAccess.csproj": {
+    "d:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogDataAccess\\BlogDataAccess.csproj",
+        "projectUniqueName": "d:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj",
         "projectName": "BlogDataAccess",
-        "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogDataAccess\\BlogDataAccess.csproj",
+        "projectPath": "d:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj",
         "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogDataAccess\\obj\\",
+        "outputPath": "d:\\GitHub\\BlogWeb\\BlogDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -127,11 +127,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogCore\\BlogCore.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogCore\\BlogCore.csproj"
+              "d:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj": {
+                "projectPath": "d:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj"
               },
-              "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj": {
-                "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj"
+              "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {
+                "projectPath": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj"
               }
             }
           }
@@ -193,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj": {
+    "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj",
+        "projectUniqueName": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
         "projectName": "BlogEntities",
-        "projectPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj",
+        "projectPath": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
         "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\obj\\",
+        "outputPath": "d:\\GitHub\\BlogWeb\\BlogEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

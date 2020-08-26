@@ -10,3 +10,15 @@ C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\bin\Debug\n
 C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.runtimeconfig.dev.json
 C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.genruntimeconfig.cache
 C:\Users\Kardelen\Desktop\Çalışmalarım\BlogY\Blogum\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.csproj.CoreCompileInputs.cache
+D:\GitHub\BlogWeb\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.deps.json
+D:\GitHub\BlogWeb\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.runtimeconfig.json
+D:\GitHub\BlogWeb\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.runtimeconfig.dev.json
+D:\GitHub\BlogWeb\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.dll
+D:\GitHub\BlogWeb\BlogEntities\bin\Debug\netcoreapp3.1\BlogEntities.pdb
+D:\GitHub\BlogWeb\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.csprojAssemblyReference.cache
+D:\GitHub\BlogWeb\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.AssemblyInfoInputs.cache
+D:\GitHub\BlogWeb\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.AssemblyInfo.cs
+D:\GitHub\BlogWeb\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.csproj.CoreCompileInputs.cache
+D:\GitHub\BlogWeb\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.dll
+D:\GitHub\BlogWeb\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.pdb
+D:\GitHub\BlogWeb\BlogEntities\obj\Debug\netcoreapp3.1\BlogEntities.genruntimeconfig.cache

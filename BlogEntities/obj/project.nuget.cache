@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vO9bZE2X3iqVsNxntpUjZ7Zk6QnpO/Cg1XWgIXvGl4GkxNuZxnQ+2rcxFrqt1I4b1HOzxMYgP+a5K1cUHbR5Fw==",
+  "dgSpecHash": "G42J5ZHpn8bFhG3+ZsePCEhB3GIKfJqN7+81I7ibxzcpWeybVLqwIKzJPOOnSaezk46mO+OL4dmCk0+Y82sQ9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogEntities\\BlogEntities.csproj",
+  "projectFilePath": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kardelen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kardelen\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
