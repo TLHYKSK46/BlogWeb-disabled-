@@ -6,3 +6,11 @@
     box-shadow: 0px -1px 14px -5px rgba(0,0,0,1);
 }
 
+.yazifontum {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.yazifontum:hover {
+        color: lightcoral;
+        font-size: 10px;
+    }

@@ -29,8 +29,8 @@ namespace BlogWebUI.TagHelpers
 
             for (int i = 1; i <= SayfaSayisi; i++)
             {
-                stringBuilder.AppendFormat("<li class='{0} {1}'>", i == SeciliSayfa ? "active": "", "page-item");
-                stringBuilder.AppendFormat("<a href='/home/index?sayfaNo={0}&kategoriId={1}'>{2}</a>",i,SeciliKategori,i);
+                stringBuilder.AppendFormat("<li class='{0}{1}'>", i == SeciliSayfa ? "page-item " : "", "active");
+                stringBuilder.AppendFormat("<a  href='/home/index?sayfaNo={0}&kategoriId={1}' class='{2} '>{3}</a>",i, "page-link", SeciliKategori,i);
                 stringBuilder.Append("</li>");
             }
            

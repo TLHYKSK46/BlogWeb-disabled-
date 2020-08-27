@@ -7,7 +7,7 @@
 }
  
     
-
+    <link href="~/css/Card.css" rel="stylesheet" />
 
     <header>
         @* Slider bu View Component içerisinde... *@
@@ -61,8 +61,8 @@
                                                     </div>
 
                                                     <div class="col-lg-6">
-                                                        <h2 class="card-title">@Html.DisplayFor(modelitem => item.MakaleBaslik)</h2><span class="icon"></span>
-                                                        <p class="card-text">@item.MakaleIcerik.Substring(0, 500)...</p>
+                                                        <h2 class="yazifontum card-title">@Html.DisplayFor(modelitem => item.MakaleBaslik)</h2><span class="icon"></span>
+                                                        <p class="yazifontum card-text ">@item.MakaleIcerik.Substring(0, 500)...</p>
                                                         <input class="btn btn-danger float-md-right align-bottom" type="submit" value="devamı&rarr;" name="MakaleicerikGönder" />
                                                     </div>
                                                 </div>
@@ -76,7 +76,7 @@
                                                         {
                                                             if (item.KullaniciId.Equals(kul.KullaniciId))
                                                             {
-                                                                <span style=" margin-left:1px; font-size:12px;"> @kul.KulAdSoyad  </span>
+                                                                <span class="yazifontum" style=" margin-left:1px;"> @kul.KulAdSoyad  </span>
                                                             }
                                                         }
                                                     }
@@ -101,7 +101,7 @@
                                                 </span>&nbsp;
 
                                                 <span>
-                                                    <i class="fa fa-calendar fa-lg" aria-hidden="true"></i>
+                                                    <i class="fa fa-calendar fa-lg" aria-hidden="true"></i>@*.ToString("dddd, dd MMMM yyyy")*@
                                                     @Html.DisplayFor(modelitem => item.MakaleYayinlanmaTarihi)
                                                 </span>&nbsp;
 
@@ -128,12 +128,12 @@
 
        
         <!-- Sidebar Widgets Column -->
-        <div class=" col-md-3 kartim">
+        <div class=" col-md-3 ">
             @{
 
                 var aramaSorgusu = (from i in Model.Makaleler select i);
                 <!-- Search Widget -->
-                <div class="card mb-4 " style="margin-top:10px;">
+                <div class="card mb-4  kartim" style="margin-top:10px;">
                     <h5 class="card-header">Arama</h5>
                     <div class="card-body">
                         @*@using (Html.BeginForm("index", "Home",  FormMethod.Post)){*@
@@ -153,7 +153,7 @@
                 <!-- Categories Widget -->
                 @await Component.InvokeAsync("KategoriList")
                 <!-- Side Widget -->
-                <div class="card my-4">
+                <div class="card my-4 kartim">
                     <h5 class="card-header">Side Widget</h5>
                     <div class="card-body">
                         You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
