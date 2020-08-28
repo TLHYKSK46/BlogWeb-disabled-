@@ -506,3 +506,4 @@ D:\GitHub\BlogWeb\BlogWebUI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalys
 D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\BlogWebUI.csproj.CoreCompileInputs.cache
 D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\BlogWebUI.MvcApplicationPartsAssemblyInfo.cs
 D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\BlogWebUI.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ProfilKart\Default.cshtml.g.cs

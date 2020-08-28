@@ -1,0 +1,22 @@
+﻿.profilkartim {
+
+}
+    .profilkartim:hover {
+    transition:0.8s;
+/*opacity:0.7;*/
+    }
+.profilkartimimg {
+    margin-top:30px;
+}
+    .profilkartimimg:hover {
+transition:0.8s;
+    opacity:0.7;
+    }
+.profilkartimUl {
+  
+    text-align: center;
+    align-content: center;
+}
+.profilkartimfooter {
+    /*background-color: #b71c1c;*/
+}
