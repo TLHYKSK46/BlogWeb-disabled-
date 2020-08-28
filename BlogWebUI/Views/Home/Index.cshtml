@@ -61,14 +61,13 @@
                                                     </div>
 
                                                     <div class="col-lg-6">
-                                                        <h2 class="yazifontum card-title">@Html.DisplayFor(modelitem => item.MakaleBaslik)</h2><span class="icon"></span>
+                                                        <h2 class="yazifontumBaslik card-title">@Html.DisplayFor(modelitem => item.MakaleBaslik)</h2><span class="icon"></span>
                                                         <p class="yazifontum card-text ">@item.MakaleIcerik.Substring(0, 500)...</p>
                                                         <input class="btn btn-danger float-md-right align-bottom" type="submit" value="devamı&rarr;" name="MakaleicerikGönder" />
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="card-footer rounded  bg-light pt-3  text-muted float-right no-padding" 
-                                                 style="font-family:Cambria; font-size:12px; text-align:right;">
+                                            <div class="card-footer cardfooter rounded  bg-light pt-3  text-muted float-right no-padding">
                                                 <span href="#" class="float-left" style="margin:2px;">
                                                     @{var kulFoto = (from foto in Model.Kullanicilar where foto.KullaniciId == item.KullaniciId select foto.FotoUrl).ToList();
                                                         <img class="rounded-circle" src="~/images/KulFoto/@kulFoto.FirstOrDefault()" width="32" height="32" style="margin:0px;" />
@@ -76,7 +75,7 @@
                                                         {
                                                             if (item.KullaniciId.Equals(kul.KullaniciId))
                                                             {
-                                                                <span class="yazifontum" style=" margin-left:1px;"> @kul.KulAdSoyad  </span>
+                                                                <span  style=" margin-left:1px;"> @kul.KulAdSoyad  </span>
                                                             }
                                                         }
                                                     }

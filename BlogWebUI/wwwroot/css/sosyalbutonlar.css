@@ -77,3 +77,8 @@ h2 {
         transform: rotate(360deg);
         border-radius: 50%;
     }
+    .sosyalbutonlar .github:hover {
+        background-color: #333;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }

@@ -21,27 +21,29 @@ namespace BlogWebUI.Controllers
         IHakkimdaServis _hakkimdaServis;
         IReferansServis _referansServis;
         IIletisimServis _iletisimServis;
-      
+
         public HomeController(
             IMakaleServis makaleServis,
             IKullaniciServis kullaniciServis,
             IKategoriServis kategoriServis,
             IYorumServis yorumServis,
-            ILogger<HomeController> logger)
+            ILogger<HomeController> logger, IHakkimdaServis hakkimdaServis, IReferansServis referansServis, IIletisimServis iletisimServis)
         {
             _yorumServis = yorumServis;
             _kullaniciServis = kullaniciServis;
             _kategoriServis = kategoriServis;
             _makaleServis = makaleServis;
-         
+
             _logger = logger;
+            _hakkimdaServis = hakkimdaServis;
+            _referansServis = referansServis;
+            _iletisimServis = iletisimServis;
         }
-       
+
         public IActionResult Index(int sayfaNo=1,int kategoriId=0,String arananMetin=null)
         {
             int sayfaBoyut = 10;
-            int test;
-            int test2;
+    
             var makaleler = _makaleServis.MakaleleriGetir();
             
             var kategoriler = _kategoriServis.KategorileriGetir();
