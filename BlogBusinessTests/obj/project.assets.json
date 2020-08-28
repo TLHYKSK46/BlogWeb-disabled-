@@ -7499,11 +7499,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\BlogWeb\\BlogBusinessTests\\BlogBusinessTests.csproj",
+      "projectUniqueName": "d:\\GitHub\\BlogWeb\\BlogBusinessTests\\BlogBusinessTests.csproj",
       "projectName": "BlogBusinessTests",
-      "projectPath": "D:\\GitHub\\BlogWeb\\BlogBusinessTests\\BlogBusinessTests.csproj",
+      "projectPath": "d:\\GitHub\\BlogWeb\\BlogBusinessTests\\BlogBusinessTests.csproj",
       "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\BlogWeb\\BlogBusinessTests\\obj\\",
+      "outputPath": "d:\\GitHub\\BlogWeb\\BlogBusinessTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -7524,11 +7524,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\GitHub\\BlogWeb\\BlogBusiness\\BlogBusiness.csproj": {
-              "projectPath": "D:\\GitHub\\BlogWeb\\BlogBusiness\\BlogBusiness.csproj"
+            "d:\\GitHub\\BlogWeb\\BlogBusiness\\BlogBusiness.csproj": {
+              "projectPath": "d:\\GitHub\\BlogWeb\\BlogBusiness\\BlogBusiness.csproj"
             },
-            "D:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj": {
-              "projectPath": "D:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj"
+            "d:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj": {
+              "projectPath": "d:\\GitHub\\BlogWeb\\BlogDataAccess\\BlogDataAccess.csproj"
             }
           }
         }
@@ -7587,7 +7587,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'PostSharp 4.2.17' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "'PostSharp 4.2.17' paketi, proje hedef çerçevesi '.NETCoreApp,Version=v3.1' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
       "libraryId": "PostSharp",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

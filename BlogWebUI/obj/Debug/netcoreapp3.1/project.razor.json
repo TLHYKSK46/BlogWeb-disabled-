@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\BlogWebUI.csproj",
+  "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\BlogWebUI.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14476,108 +14476,108 @@
   "RootNamespace": "BlogWebUI",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\AdminGiris\\KayitOl.cshtml",
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\AdminGiris\\KayitOl.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminGiris\\KayitOl.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\Shared\\_LayoutGiris.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_LayoutGiris.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\AdminGiris\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\AdminGiris\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Hakkimda\\Index.cshtml",
-      "TargetPath": "Views\\Hakkimda\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Shared\\Components\\SliderList\\Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\SliderList\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Home\\MakaleIcerik.cshtml",
-      "TargetPath": "Views\\Home\\MakaleIcerik.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\_ViewStart.cshtml",
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\AdminKategori\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\AdminKategori\\Index.cshtml",
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Referans\\Index.cshtml",
-      "TargetPath": "Views\\Referans\\Index.cshtml",
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\AdminKullanici\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\AdminKullanici\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Iletisim\\Index.cshtml",
-      "TargetPath": "Views\\Iletisim\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Views\\Shared\\Components\\KategoriList\\Default.cshtml",
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Shared\\Components\\KategoriList\\Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\KategoriList\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kardelen\\Desktop\\Çalışmalarım\\BlogY\\Blogum\\BlogWebUI\\Areas\\Admin\\Views\\AdminMakale\\Index.cshtml",
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Hakkimda\\Index.cshtml",
+      "TargetPath": "Views\\Hakkimda\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Iletisim\\Index.cshtml",
+      "TargetPath": "Views\\Iletisim\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Referans\\Index.cshtml",
+      "TargetPath": "Views\\Referans\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Home\\MakaleIcerik.cshtml",
+      "TargetPath": "Views\\Home\\MakaleIcerik.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\Shared\\_LayoutGiris.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_LayoutGiris.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Shared\\Components\\SliderList\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\SliderList\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\AdminMakale\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\AdminMakale\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\AdminKategori\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminKategori\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\AdminGiris\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminGiris\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\GitHub\\BlogWeb\\BlogWebUI\\Areas\\Admin\\Views\\AdminKullanici\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\AdminKullanici\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
