@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {}
+    "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {
+    "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
+        "projectUniqueName": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
         "projectName": "BlogEntities",
-        "projectPath": "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
+        "projectPath": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj",
         "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\BlogWeb\\BlogEntities\\obj\\",
+        "outputPath": "d:\\GitHub\\BlogWeb\\BlogEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

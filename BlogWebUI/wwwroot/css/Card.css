@@ -13,9 +13,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color:#90A4AE;
 text-justify: auto;
+justify-content: center;
 }
 
 .yazifontum:hover {
+    transition: 0.4s;
         color: #37474F;
      
     }

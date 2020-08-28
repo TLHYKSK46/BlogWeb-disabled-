@@ -110,7 +110,7 @@
                             var kulFotoYrm = (from i in Model.Kullanicilar where i.KullaniciId == itemYorum.KullaniciId select i.FotoUrl).ToList();
                 <div class="media mb-6" style="padding:0px;margin:0px;">
                    
-                    @{ if (kulFotoYrm != null)
+                    @{ if (kulFotoYrm != null &&kuladYorum !=null)
                         {
                             <img class="rounded-circle" src="~/images/KulFoto/@kulFotoYrm.FirstOrDefault()" width="50" height="50" style="margin:10px; " />
                         }

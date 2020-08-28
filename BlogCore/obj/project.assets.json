@@ -5816,11 +5816,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj",
+      "projectUniqueName": "d:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj",
       "projectName": "BlogCore",
-      "projectPath": "D:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj",
+      "projectPath": "d:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj",
       "packagesPath": "C:\\Users\\Kardelen\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\BlogWeb\\BlogCore\\obj\\",
+      "outputPath": "d:\\GitHub\\BlogWeb\\BlogCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5841,8 +5841,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {
-              "projectPath": "D:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj"
+            "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj": {
+              "projectPath": "d:\\GitHub\\BlogWeb\\BlogEntities\\BlogEntities.csproj"
             }
           }
         }
