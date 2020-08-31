@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Hakkimda";
 }
-<div class="container-fluid">
+<div class="container">
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">
         Ben
@@ -19,20 +19,53 @@
             var kulFoto = (from foto in Model.SuperAdmin where foto.KullaniciId == 1 select foto.FotoUrl).ToList();
             var kulAdi = (from kuladi in Model.SuperAdmin where kuladi.KullaniciId == 1 select kuladi.KulAdSoyad).ToList();
 
-            <div class="col-md-3 " style=" width:300px;height:300px; text-align:center">
-                <img style="border-radius:180px; width:256px;height:256px;" src="~/images/KulFoto/@kulFoto.FirstOrDefault()" /><br />
-                <div class="" style="text-align:center;margin-top:5px; ">
-                    <h4>@kulAdi.FirstOrDefault()</h4>
-                    <hr />
-                </div>
+            <div class="col-md-4 " style=" text-align:center">
+                @await Component.InvokeAsync("ProfilKart");
+                @*<img style="border-radius:180px; width:256px;height:256px;" src="~/images/KulFoto/@kulFoto.FirstOrDefault()" /><br />
+                    <div class="" style="text-align:center;margin-top:5px; ">
+                        <h4>@kulAdi.FirstOrDefault()</h4>
+                        <hr />
+                    </div>*@
 
 
             </div>
-            <div class="col-8">
-                <div class="row" style="margin-top:50px;">
+            <div class="col-8 ">
+
+                <div class="wrapper">
+                    <div class="tabs">
+                        <div class="tab">
+                            <input type="radio" name="css-tabs" id="tab-1" checked class="tab-switch">
+                            <label for="tab-1" class="tab-label">Deneyim</label>
+                            <div class="tab-content">My father had a small estate in Nottinghamshire: I was the third of five sons. He sent me to Emanuel College in Cambridge at fourteen years old, where I resided three years, and applied myself close to my studies; but the charge of maintaining me, although I had a very scanty allowance, being too great for a narrow fortune, I was bound apprentice to Mr. James Bates, an eminent surgeon in London, with whom I continued four years. </div>
+                        </div>
+                        <div class="tab">
+                            <input type="radio" name="css-tabs" id="tab-2" class="tab-switch">
+                            <label for="tab-2" class="tab-label">Eğitim</label>
+                            <div class="tab-content">My father now and then sending me small sums of money, I laid them out in learning navigation, and other parts of the mathematics, useful to those who intend to travel, as I always believed it would be, some time or other, my fortune to do. </div>
+                        </div>
+                        <div class="tab">
+                            <input type="radio" name="css-tabs" id="tab-3" class="tab-switch">
+                            <label for="tab-3" class="tab-label">Beceriler</label>
+                            <div class="tab-content">tain me at Leyden: there I studied physic two years and seven months, knowing it would be useful in long voyages.</div>
+                        </div>
+                        <div class="tab">
+                            <input type="radio" name="css-tabs" id="tab-4" class="tab-switch">
+                            <label for="tab-4" class="tab-label">Hobiler</label>
+                            <div class="tab-content">When I left Mr. Bates, I went down to my father: where, by the assistance of him and my uncle John, and some other relations, I got forty pounds, and a promise of thirty pounds a year to maintain me at Leyden: there I studied physic two years and seven months, knowing it would be useful in long voyages.</div>
+                        </div>
+                        <div class="tab">
+                            <input type="radio" name="css-tabs" id="tab-5" class="tab-switch">
+                            <label for="tab-5" class="tab-label">Sertifikalar&Ödüller</label>
+                            <div class="tab-content">When I left Mr. Bates, I went down to my father: where, by the assistance of him and my uncle John, and some other relations, I got forty pounds, and a promise of thirty pounds a year to maintain me at Leyden: there I studied physic two years and seven months, knowing it would be useful in long voyages.</div>
+                        </div>
+                    </div>
+               
+                </div>
+                @*////////////////////////////////////////*@
+                <div class="row">
                     <div class="col-3">
-                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Deneyim</a>
+                        <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Deneyim</a>
                             <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Eğitim</a>
                             <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Beceriler</a>
                             <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Hobiler</a>
@@ -40,24 +73,33 @@
 
                         </div>
                     </div>
+
                     @foreach (var item in Model.Hakkimda)
                     {
+                        string deneyimler = item.Deneyim;
+                        string deneyim;
+                        string[] deneyimlist = deneyimler.Split(',');//virgüle göre ayırıcak cümleyi
+                        foreach (var dene in deneyimlist)
+                        {
 
+                            deneyim = dene.ToString();
 
-                        <div class="col-9" style="height:400px;">
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">@item.Deneyim</div>
-                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">@item.Egitim</div>
-                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">@item.Beceriler</div>
-                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">@item.Hobiler</div>
-                                <div class="tab-pane fade" id="v-pills-oduller" role="tabpanel" aria-labelledby="v-pills-oduller-tab">@item.Sertifika_Oduller</div>
+                            <div class="col-5 bg-light " style="">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">&rArr;&nbsp;@deneyim.ToUpper()</div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">@item.Egitim</div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">@item.Beceriler</div>
+                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">@item.Hobiler</div>
+                                    <div class="tab-pane fade" id="v-pills-oduller" role="tabpanel" aria-labelledby="v-pills-oduller-tab">@item.Sertifika_Oduller</div>
 
+                                </div>
                             </div>
-                        </div>
+                        }
                     }
                 </div>
             </div>
         }
     </div>
+   
 
 </div>

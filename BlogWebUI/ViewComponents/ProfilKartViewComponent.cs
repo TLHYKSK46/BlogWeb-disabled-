@@ -21,7 +21,7 @@ namespace BlogWebUI.ViewComponents
 
         public ViewViewComponentResult Invoke()
         {
-            var superAdmin = _kullaniciServis.RoleGoreGetir(1);
+            var superAdmin = _kullaniciServis.KullanicilariGetir();
             var model = new ProfilViewModel
             {
                SuperAdmin=superAdmin
