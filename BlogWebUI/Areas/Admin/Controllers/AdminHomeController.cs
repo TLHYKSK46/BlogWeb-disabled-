@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlogumUI.Areas.Admin.Controllers
+namespace BlogWebUI.Areas.Admin.Controllers
 {
     public class AdminHomeController : Controller
     {

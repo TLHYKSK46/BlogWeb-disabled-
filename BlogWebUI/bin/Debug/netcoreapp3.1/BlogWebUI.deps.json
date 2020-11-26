@@ -321,6 +321,20 @@
           "lib/netstandard2.0/FluentValidation.dll": {}
         }
       },
+      "log4net/2.0.12": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/log4net.dll": {
+            "assemblyVersion": "2.0.12.0",
+            "fileVersion": "2.0.12.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/log4net.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.7": {
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "3.1.7",
@@ -1679,7 +1693,8 @@
           "Microsoft.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.7",
           "PostSharp": "4.2.17",
-          "PostSharp.Redist": "6.6.13"
+          "PostSharp.Redist": "6.6.13",
+          "log4net": "2.0.12"
         },
         "runtime": {
           "BlogCore.dll": {}
@@ -3339,6 +3354,13 @@
       "sha512": "sha512-3YctqJSe80I+lQqdhW3WKni6l3vHMzne1KK93lb/GN0BkEy7x3QNnVh+9qFkvDPn806L+8skpI0+dhj/w0BDuA==",
       "path": "fluentvalidation/9.1.3",
       "hashPath": "fluentvalidation.9.1.3.nupkg.sha512"
+    },
+    "log4net/2.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9P67BCftJ7KG+B7rNOM1A9KczUwyEDed6zbAddy5Cj/73xVkzi+rEAHeOgUnW5wDqy1JFlY8+oTP0m1PgJ03Tg==",
+      "path": "log4net/2.0.12",
+      "hashPath": "log4net.2.0.12.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/3.1.7": {
       "type": "package",

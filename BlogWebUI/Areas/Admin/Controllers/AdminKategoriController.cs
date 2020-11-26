@@ -6,7 +6,7 @@ using BlogBusiness.Abstract;
 using BlogumUI.Areas.Admin.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlogumUI.Areas.Admin.Controllers
+namespace BlogWebUI.Areas.Admin.Controllers
 {
     public class AdminKategoriController : Controller
     {

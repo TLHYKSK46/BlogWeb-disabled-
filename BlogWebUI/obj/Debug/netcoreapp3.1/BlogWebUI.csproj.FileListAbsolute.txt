@@ -507,3 +507,6 @@ D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\BlogWebUI.csproj.CoreCompile
 D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\BlogWebUI.MvcApplicationPartsAssemblyInfo.cs
 D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\BlogWebUI.MvcApplicationPartsAssemblyInfo.cache
 D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ProfilKart\Default.cshtml.g.cs
+D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Components\UserSummer\Default.cshtml.g.cs
+D:\GitHub\BlogWeb\BlogWebUI\bin\Debug\netcoreapp3.1\log4net.config
+D:\GitHub\BlogWeb\BlogWebUI\bin\Debug\netcoreapp3.1\log4net.dll

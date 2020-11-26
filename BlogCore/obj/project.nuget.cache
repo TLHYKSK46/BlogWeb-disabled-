@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gRKrAFPrhdcprdCdi6eHjQXr6ph1UYvmzsUsmG6wSvB3+JYPlTyrVNcoJBOkaQr2knAEx0a55zgbRdqlw7ULmw==",
+  "dgSpecHash": "aikqAXupd+sl4yuVqCkv+PooxP9LCNrJ2eisz6roQ3wkh+RVam9kgiwiXU5FvRCUAcbdv7CH9GXXgLJM+lf7Eg==",
   "success": true,
   "projectFilePath": "D:\\GitHub\\BlogWeb\\BlogCore\\BlogCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kardelen\\.nuget\\packages\\fluentvalidation\\9.1.3\\fluentvalidation.9.1.3.nupkg.sha512",
+    "C:\\Users\\Kardelen\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\Kardelen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kardelen\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Kardelen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -23,7 +23,6 @@ D:\GitHub\BlogWeb\BlogCore\bin\Debug\netcoreapp3.1\BlogEntities.pdb
 D:\GitHub\BlogWeb\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.csprojAssemblyReference.cache
 D:\GitHub\BlogWeb\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.AssemblyInfoInputs.cache
 D:\GitHub\BlogWeb\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.AssemblyInfo.cs
-D:\GitHub\BlogWeb\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.csproj.CoreCompileInputs.cache
 D:\GitHub\BlogWeb\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.csproj.CopyComplete
 D:\GitHub\BlogWeb\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.dll
 D:\GitHub\BlogWeb\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.pdb

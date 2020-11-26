@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace Blogum.Areas.Admin.Controllers
+namespace BlogWebUI.Areas.Admin.Controllers
 {
     public class AdminKullaniciController:Controller
 

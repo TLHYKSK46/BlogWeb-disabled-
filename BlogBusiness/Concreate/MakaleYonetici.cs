@@ -16,14 +16,14 @@ namespace BlogBusiness.Concreate
             _makaleDal = makaleDal;
         }
 
-        [FluentValidationAspect(typeof(MakaleValidatior))]
+        //[FluentValidationAspect(typeof(MakaleValidatior))]
         public void Ekle(Makale makale)
         {
             //ValidatorTool.FluentValidate(new MakaleValidatior(),makale);//FLUENT VALİdation bu şekilde de kullanılır ama bu solid e uymuyor onda attirbute olrak yazdık
             _makaleDal.Ekle(makale);
         }
 
-        [FluentValidationAspect(typeof(MakaleValidatior))]
+        //[FluentValidationAspect(typeof(MakaleValidatior))]
         public void Guncelle(Makale makale)
         {
             //ValidatorTool.FluentValidate(new MakaleValidatior(),makale);//FLUENT VALİdation

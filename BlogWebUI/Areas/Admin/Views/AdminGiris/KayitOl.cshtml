@@ -15,30 +15,29 @@
                             <div class="logo text-center"><img src="~/img/logo-dark.png" alt="Klorofil Logo"></div>
                             <p class="lead">Bilgilerinizi Doldurunuz.</p>
                         </div>
-                        @using(Html.BeginForm("","", new{@class="form-auth-small"})) {
-                            
-                      
-                       @* <form class="form-auth-small" action="">*@
-                              
-                                <div class="form-group">
+                        @using(Html.BeginForm("KayitOl", "AdminGiris", new{area="",@class="form-control"},FormMethod.Post)) {
+
+
+                            <div class="form-group">
                                 <label for="signin-email" class="control-label sr-only">Email</label>
-                                @Html.TextBox("adsoyad", "", new { @class = "form-control", @placeholder = "Ad Soyad", @id = "signin-email" })
+                                @Html.TextBox("adsoyad", "", new { @class = "form-control", @placeholder = "Ad Soyad", @id = "signin-name" })
                             </div>
                             <div class="form-group">
                                 <label for="signin-email" class="control-label sr-only">Email</label>
-                                @Html.TextBox("email", "", new { @class = "form-control", @placeholder = "Email", @id = "signin-email" })
+                                @Html.TextBox("email", "", new { @class = "form-control", @placeholder = "Email",Type="email", @id = "signin-email" })
                             </div>
                             <div class="form-group">
                                 <label for="signin-password" class="control-label sr-only">Password</label>
 
-                                @Html.TextBox("parola", "", new { @class = "form-control", @placeholder = "Parola", @id = "signin-password" })
+                                @Html.TextBox("parola", "", new { @class = "form-control", @placeholder = "Parola",Type="password", @id = "signin-password" })
                             </div>
-                              <div class="custom-file">
-                                     <label class="custom-file-label float-left" for="customFile">Profil Fotografı Seçiniz</label>
-                                    <input type="file" class="custom-file-input" id="customFile">
-                                  
-                                </div>
-                            <button type="submit" class="btn btn-primary btn-lg btn-block">Kayıt Ol</button>
+                            <div class="custom-file">
+                                <label class="custom-file-label float-left" asp-for="customFile">Profil Fotografı Seçiniz</label>
+                                <input type="file" class="custom-file-input" id="customFile">
+                                
+
+                            </div>
+                            <button type="submit"  class="btn btn-primary btn-lg btn-block">Kayıt Ol</button>
                               }
                     </div>
                 </div>
@@ -47,7 +46,7 @@
                     <div class="content text">
                         <h1 class="heading">Hesabınız Yokmu? Hemen Üye Ol!</h1>
                         <p>by The Develovers</p>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block">Zaten Üyemsin? Giriş Yap!</button>
+                        <a class="btn btn-primary btn-lg btn-block" href="/Admin/AdminGiris/index">Giris Yap</a>
 
                     </div>
                 </div>
