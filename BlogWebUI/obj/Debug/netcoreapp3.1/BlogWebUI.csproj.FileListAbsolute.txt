@@ -510,3 +510,5 @@ D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Component
 D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Components\UserSummer\Default.cshtml.g.cs
 D:\GitHub\BlogWeb\BlogWebUI\bin\Debug\netcoreapp3.1\log4net.config
 D:\GitHub\BlogWeb\BlogWebUI\bin\Debug\netcoreapp3.1\log4net.dll
+D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\AdminMakale\MakaleOlustur.cshtml.g.cs
+D:\GitHub\BlogWeb\BlogWebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\Components\SolMenu\Default.cshtml.g.cs
