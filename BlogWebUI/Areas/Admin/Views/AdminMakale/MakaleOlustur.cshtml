@@ -1,4 +1,4 @@
-﻿@model BlogumUI.Areas.Admin.Models.AdminMakaleViewModel
+﻿@model BlogWebUI.Areas.Admin.Models.AdminComboViewModel
 @{
 }
 <script>
@@ -12,27 +12,16 @@
     <div class="panel-body">
         @using (Html.BeginForm("MakaleOlustur", "AdminMakale", new { area = "", @class = "form-control" }, FormMethod.Post))
         {
-
+            @Html.ValidationSummary(true)
 
             @Html.TextBox("MakaleBaslik", "", new { @class = "form-control", @placeholder = "Makale Başlığı" })
             <br>
-
+            @*@Html.DropDownListFor(x => x.Kategoriler, Model.KulId, "Kategori Seç")*@
             <input type="file" class="form-control">
             <br>
-          
-            @*@foreach (var item in Model.Kategoriler)
-            {
 
-            }*@
-            @*@Html.DropDownList("KategoriId", new SelectList(Model.KategoriList, "KategoriId", "KategoriAdi"))*@
-            <select class="form-control">
-                <option value="">Kategori Seçiniz</option>
-                @*@foreach (var item in Model.Kategoriler)
-                {
-                    <option value="@item.KategoriAdi">@item.KategoriAdi</option>
-                }*@
+            @Html.DropDownListFor(m => m.SelectedKatId, Model.SelectedKatData, "Lütfen Bir Kategori Seçiniz", new { @class = "dropdown form-control" })
 
-            </select>
             <br>
             @*<textarea class="form-control" placeholder="Makale İçeriği" rows="10"></textarea>*@
             @Html.TextArea("MakaleIcerik", "", new { @class = "form-control", @placeholder = "Makale İçeriği", @rows = 10 })

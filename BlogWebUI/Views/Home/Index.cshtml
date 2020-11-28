@@ -62,7 +62,17 @@
 
                                         <div class="col-lg-6">
                                             <h2 class="yazifontumBaslik card-title">@Html.DisplayFor(modelitem => item.MakaleBaslik)</h2><span class="icon"></span>
-                                            <p class="yazifontum card-text ">@item.MakaleIcerik.Substring(0, 500)...</p>
+                                            @if (item.MakaleIcerik.Length > 500)
+                                            {
+                                                <p class="yazifontum card-text ">@item.MakaleIcerik.Substring(0, 500)...</p>
+
+                                            }
+                                            else
+                                            {
+                                                <p class="yazifontum card-text ">@item.MakaleIcerik</p>
+
+                                            }
+                                    
                                             <input class="btn btn-danger float-md-right align-bottom" type="submit" value="devamı&rarr;" name="MakaleicerikGönder" />
                                         </div>
                                     </div>

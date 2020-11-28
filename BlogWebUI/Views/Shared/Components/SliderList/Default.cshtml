@@ -40,8 +40,16 @@
                         <img src="~/images/MakaleFoto/@item.MakaleFotoUrl" width="1900" height="1080" />
                         <div class="carousel-caption d-none d-md-block carousel-caption alert-dark text-dark rounded" style="opacity:0.8;">
                             <h3 class="card-header" style="opacity:1.0;">@item.MakaleBaslik</h3>
+                            @if (item.MakaleIcerik.Length > 150)
+                            {
+                                <p style="opacity:1.0;">@item.MakaleIcerik.Substring(0, 150)...</p>
 
-                            <p style="opacity:1.0;">@item.MakaleIcerik.Substring(0, 150)...</p>
+                            }
+                            else
+                            {
+                                <p style="opacity:1.0;">@item.MakaleIcerik</p>
+
+                            }
                         </div>
                     </div>
 
@@ -52,7 +60,17 @@
                         <img src="~/images/MakaleFoto/@item.MakaleFotoUrl" width="1900" height="1080" />
                         <div class="carousel-caption d-none d-md-block alert-dark  text-dark rounded" style="opacity:0.8;">
                             <h3 style="opacity:1;" class="card-header">@item.MakaleBaslik</h3>
-                            <p style="opacity:1;">@item.MakaleIcerik.Substring(0, 150)...</p>
+                            @if (item.MakaleIcerik.Length > 150)
+                            {
+                                <p style="opacity:1;">@item.MakaleIcerik.Substring(0, 150)...</p>
+
+                            }
+                            else
+                            {
+                                <p style="opacity:1;">@item.MakaleIcerik</p>
+
+                            }
+                          
                         </div>
                     </div>
                 }

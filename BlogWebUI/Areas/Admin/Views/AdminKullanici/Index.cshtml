@@ -31,7 +31,16 @@
                         <td>@item.MakaleId</td>
                         <td>@item.MakaleFotoUrl</td>
                         <td>@item.MakaleBaslik</td>
-                        <td>@item.MakaleIcerik.Substring(0, 100)...</td>
+                        @if (item.MakaleIcerik.Length > 100)
+                        {
+                            <td>@item.MakaleIcerik.Substring(0, 100)...</td>
+
+                        }
+                        else
+                        {
+                            <td>@item.MakaleIcerik</td>
+
+                        }
                         <td>@item.MakaleOkunmaSayisi</td>
                         <td>@item.MakaleYayinlanmaTarihi</td>
                         <td><button type="button" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button></td>
