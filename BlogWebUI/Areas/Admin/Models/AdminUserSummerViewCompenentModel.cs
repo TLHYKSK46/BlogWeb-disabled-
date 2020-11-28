@@ -11,5 +11,7 @@ namespace BlogWebUI.Areas.Admin.Models
         public string Email { get; internal set; }
         public int RolId { get; internal set; }
         public string FotoUrl { get; internal set; }
+
+        
     }
 }

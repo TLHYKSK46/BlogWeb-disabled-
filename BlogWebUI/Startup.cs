@@ -27,7 +27,8 @@ namespace Blogum
 
             services.AddControllersWithViews()
                    .AddRazorRuntimeCompilation();
-
+            services.AddSession();
+            services.AddDistributedMemoryCache();
             services.AddControllersWithViews();
 
             //services.AddDbContext<BlogContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
@@ -85,7 +86,7 @@ namespace Blogum
             //}
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseAuthorization();

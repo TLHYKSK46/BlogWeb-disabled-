@@ -1,5 +1,6 @@
 ﻿using BlogEntities.BlogDb;
 using BlogWebUI.Areas.Admin.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using System;
@@ -20,26 +21,24 @@ namespace BlogWebUI.Areas.Admin.ViewComponents
 
         public  ViewViewComponentResult Invoke() {
           
-            List<AdminKullaniciViewModel> viewModels = new List<AdminKullaniciViewModel>();
+            //List<AdminKullaniciViewModel> viewModels = new List<AdminKullaniciViewModel>();
 
-            foreach (var item in viewModels)
-            {
-                //Kullanici kullanici = new Kullanici {
-                //Email=item.Email,
-                // FotoUrl=item.FotoUrl,
-                // KulAdSoyad=item.AdSoyad,
-                // RolId=item.RolId
-                
-                //};
-                //return View(kullanici);
-                AdSoyad = item.AdSoyad;
-                Email = item.Email;
-                RolId = item.RolId;
-                FotoUrl = item.FotoUrl;
-
-
-            }
-
+            //foreach (var item in viewModels)
+            //{
+      
+            //    Kullanici kullanici = new Kullanici
+            //    {
+            //        Email = item.Email,
+            //        FotoUrl = item.FotoUrl,
+            //        KulAdSoyad = item.AdSoyad,
+            //        RolId = item.RolId
+            //    };
+            //    return View(kullanici);
+            //}
+            AdSoyad = HttpContext.Session.GetString("adsoyad");
+            Email = HttpContext.Session.GetString("email");
+            RolId = (int)HttpContext.Session.GetInt32("rolid");
+            FotoUrl = HttpContext.Session.GetString("fotourl");
             AdminUserSummerViewCompenentModel model = new AdminUserSummerViewCompenentModel
             {
                 AdSoyad=AdSoyad,

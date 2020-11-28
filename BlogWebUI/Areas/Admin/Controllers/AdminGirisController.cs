@@ -6,6 +6,7 @@ using BlogBusiness.Abstract;
 using BlogEntities.BlogDb;
 using BlogumUI.Areas.Admin.Models;
 using BlogWebUI.Areas.Admin.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogWebUI.Areas.Admin.Controllers
@@ -32,15 +33,22 @@ namespace BlogWebUI.Areas.Admin.Controllers
             {
                 if (item.Email == email && item.Parola==parola )
                 {
-                    AdminKullaniciViewModel model = new AdminKullaniciViewModel
-                    {
-                        AdSoyad=item.KulAdSoyad,
-                        Email=email,
-                        RolId=item.RolId,
-                        FotoUrl=item.FotoUrl
-                       
-                    };
-                    
+                    //AdminKullaniciViewModel model = new AdminKullaniciViewModel
+                    //{
+                    //    AdSoyad=item.KulAdSoyad,
+                    //    Email=email,
+                    //    RolId=item.RolId,
+                    //    FotoUrl=item.FotoUrl
+
+                    //};
+                    HttpContext.Session.SetInt32("id", item.KullaniciId);
+                    HttpContext.Session.SetString("adsoyad",item.KulAdSoyad);
+                    HttpContext.Session.SetString("email", item.Email);
+                    HttpContext.Session.SetString("fotourl", item.FotoUrl);
+                    HttpContext.Session.SetInt32("rolid", item.RolId);
+
+
+
                     return Redirect("/Admin/AdminHome/index");
 
                 }
